@@ -16,10 +16,9 @@ const HomeHero: FC = () => {
   return (
     <HomeHeroGridPattern $gridColor={backgroundSecondary}>
       <Box
-        w='full'
-        minW='100vw'
-        h='full'
-        minH='100vh'
+        w='100%'
+        h='100%'
+        minH='calc(100vh - 80px)'
         display='flex'
         alignItems='center'
         justifyContent='center'

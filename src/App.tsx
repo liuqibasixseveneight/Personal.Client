@@ -12,7 +12,7 @@ import { ROUTES } from './config';
 
 function App() {
   return (
-    <Box w='full' minW='100vw' h='full' minH='100vh' bg='background.primary'>
+    <Box w='100vw' h='100vh' bg='background.primary'>
       <Routes>
         <Route path={ROUTES?.HOME} Component={WithNavigation}>
           <Route path={ROUTES?.HOME} Component={Home} />
